@@ -1,0 +1,16 @@
+
+
+nav{
+    padding: 10px 0;
+    margin-bottom: 20px;
+    .nav-route{
+        padding: 12px;
+        align-items: center;
+        display: flex;
+        color: white;
+    }
+    .active{
+        background: #00000040;
+        border-radius: 4px;
+    }
+}

@@ -1,0 +1,30 @@
+
+footer{
+    background: #0000001e;
+    margin-top: 20px;
+    padding-top: 20px;
+    
+}
+.info-section{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    a{
+        color: white;
+        height: 32px;
+    }
+}
+.footer-logo{
+    height: 100px;
+}
+.footer-link{
+    height: 32px;
+    margin-bottom: 4px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background: white;
+
+    &:hover{
+
+    }
+}

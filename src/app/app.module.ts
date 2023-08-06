@@ -3,14 +3,32 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './views/home/home.component';
+import { ProjectPageComponent } from './views/project-page/project-page.component';
+import { RecomendationPageComponent } from './views/recomendation-page/recomendation-page.component';
+import { HeroComponent } from './components/hero/hero.component';
+import { SkillsCardsComponent } from './components/skills-cards/skills-cards.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FooterComponent } from './components/footer/footer.component';
+import { ProjectSectionComponent } from './components/project-section/project-section.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    ProjectPageComponent,
+    RecomendationPageComponent,
+    HeroComponent,
+    SkillsCardsComponent,
+    FooterComponent,
+    ProjectSectionComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

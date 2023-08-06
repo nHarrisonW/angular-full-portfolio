@@ -1,0 +1,38 @@
+
+.skill-section{
+    display: flex;
+    justify-content: space-between;
+
+    color: white;
+
+    margin-bottom: 20px;
+    p{
+        margin: 0;
+    }
+}
+.skill-grid{
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+
+    background: #00000048;
+    padding: 20px;
+
+    .skill-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100px;
+    }
+
+
+    .name{
+        color: white;
+    }
+    .skill-img{
+        height: 32px;
+    }
+}

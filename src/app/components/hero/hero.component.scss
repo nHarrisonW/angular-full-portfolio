@@ -1,0 +1,47 @@
+
+@import '../../../styles.scss';
+
+.hero-parent{
+    background: #000;
+    border: 1px solid $border;
+
+    padding: 12px;
+
+    margin-bottom: 20px;
+    .code{
+        margin: 0;
+        line-height: 150%;
+
+        color: white;
+        span.bluecode{
+            color: #91CED0;
+        }
+        span.redcode{
+            color: #7B3A3C;
+        }
+        span.yellowcode{
+            color: #FFE500;
+        }
+        span.pinkcode{
+            color: #FF00D6;
+        }
+    }
+    .cursor{
+        background: #11ff00;
+        color: #11ff00 !important;
+        display: table;
+        animation: pulse 1s infinite;
+    }
+      @keyframes pulse {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.5;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+}
+

@@ -1,0 +1,17 @@
+
+
+.project-page{
+    color: white;
+    .page-description{
+        padding: 0 20px;
+    }
+    .imgs{
+        display: flex;
+        flex-direction: column;
+    }
+    img.project-hero{
+        width: 100%;
+        display: flex;  
+        margin-bottom: 12px;
+  }
+}

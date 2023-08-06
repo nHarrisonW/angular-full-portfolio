@@ -1,0 +1,15 @@
+
+
+<div [ngClass]="{'reverse':i%2!==0}" class="project-parent poppins row" *ngFor="let item of projects.project; let i=index">
+    <div class="col-6">
+        <a routerLink="project/{{item.reference}}" class="title">
+            <h1>{{item.name}}</h1>
+        </a>
+        <p class="description">
+            {{item.description}}
+        </p>
+    </div>
+    <div class="col-6">
+        <img src="{{item.imgs[0].src}}" alt="" class="project-hero">
+    </div>
+</div>

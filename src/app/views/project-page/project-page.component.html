@@ -1,0 +1,18 @@
+
+
+<div class="project-page poppins">
+    <h1 class="title">
+        {{project.name}}
+    </h1>
+
+    <div>
+        <p class="page-description">
+            {{project.description}}
+        </p>
+    
+    </div>
+    <div class="imgs">
+        <img *ngFor="let item of project.imgs" src="{{item.src}}" alt="" class="project-hero">
+    </div>
+
+</div>
