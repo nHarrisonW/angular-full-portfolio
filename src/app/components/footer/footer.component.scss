@@ -3,14 +3,14 @@ footer{
     background: #0000001e;
     margin-top: 20px;
     padding-top: 20px;
-    
+
 }
 .info-section{
     display: flex;
     justify-content: space-between;
-    color: white;
+    // color: white;
     a{
-        color: white;
+        color: black;
         height: 32px;
     }
 }
@@ -21,7 +21,7 @@ footer{
     height: 32px;
     margin-bottom: 4px;
     border-radius: 50%;
-    border: 1px solid white;
+    border: 1px solid black;
     background: white;
 
     &:hover{

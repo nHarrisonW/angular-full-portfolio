@@ -1,9 +1,12 @@
 
 
 <div class="project-page poppins">
-    <h1 class="title">
-        {{project.name}}
-    </h1>
+    <a *ngIf="project.true_reference" class="title" href="{{project.true_reference}}">
+        <h1 >
+            {{project.name}}-Visit Me!
+        </h1>
+    </a>
+    <h1 *ngIf="!project.true_reference" class="title">{{project.name}}</h1>
 
     <div>
         <p class="page-description">

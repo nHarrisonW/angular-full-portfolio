@@ -2,14 +2,15 @@
 
 .project-parent{
     display: flex;
-    color: white;
+    // color: white;
 
     .project-hero{
         width: 100%;
-        border-radius: 12px;
+        // border-radius: 12px;
+        border: 1px solid black;
     }
     a{
-        color: white;
+        color: black;
     }
     .description{
         max-height: 300px;
@@ -22,4 +23,9 @@
 .reverse{
     flex-direction: row-reverse;
     text-align: end;
+}
+.title{
+    h1{&:hover{
+        color: red;
+    }}
 }

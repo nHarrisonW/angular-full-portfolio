@@ -3,14 +3,17 @@
 nav{
     padding: 10px 0;
     margin-bottom: 20px;
+    border-bottom: 1px solid grey;
     .nav-route{
         padding: 12px;
         align-items: center;
         display: flex;
-        color: white;
+        color: black;
     }
     .active{
-        background: #00000040;
+        // background: #ffffff40;
+        text-decoration: underline;
+        text-decoration-color: #EB5E28;
         border-radius: 4px;
     }
 }

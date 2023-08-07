@@ -1,7 +1,8 @@
+@import '../../../styles.scss';
 
 
 .project-page{
-    color: white;
+    // color: white;
     .page-description{
         padding: 0 20px;
     }
@@ -13,5 +14,10 @@
         width: 100%;
         display: flex;  
         margin-bottom: 12px;
+        border: 1px solid black;
+        background: white;
+  }
+  .title{
+    color: black;
   }
 }
