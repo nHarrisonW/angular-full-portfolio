@@ -116,7 +116,7 @@ export class SkillDataService {
     },
     {
       name:'Adobe InDesign',
-      img_src:'https://i.imgur.com/WSjjtLg.png',
+      img_src:'https://i.imgur.com/H44ysus.png',
     },
     {
       name:'Figma',
