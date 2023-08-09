@@ -1,8 +1,10 @@
+@import '../../../scss/universal';
 
 footer{
-    background: #0000001e;
+    background: $platinum;
     margin-top: 20px;
     padding-top: 20px;
+    border-top: 1px solid #000;
 
 }
 .info-section{
@@ -10,7 +12,7 @@ footer{
     justify-content: space-between;
     // color: white;
     a{
-        color: black;
+        color: $text;
         height: 32px;
     }
 }
@@ -23,8 +25,22 @@ footer{
     border-radius: 50%;
     border: 1px solid black;
     background: white;
+}
 
-    &:hover{
-
+.nightmode{
+    background: #22007C;
+    border-top: 1px solid #fff;
+    .footer-link{
+        border: 1px solid white;
+        &:hover{
+            border: 1px solid $saffron !important;
+            background: $saffron;
+        }
+    }
+    a{
+        color: white;
+        &:hover{
+            color: $saffron !important;
+        }
     }
 }

@@ -1,7 +1,7 @@
 
 
 
-<div class="app-parent">
+<div class="app-parent" [ngClass]="{'dark-parent':darkLightService.darkMode}">
   <app-navbar></app-navbar>
   <div class="container">
     <router-outlet></router-outlet>

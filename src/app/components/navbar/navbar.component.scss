@@ -1,19 +1,42 @@
-
+@import '../../../scss/universal';
 
 nav{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    transition: ease-in-out 300ms; //UNIVERSAL
     padding: 10px 0;
     margin-bottom: 20px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid black;
+    background: $platinum;
     .nav-route{
+        text-decoration: none;
         padding: 12px;
         align-items: center;
         display: flex;
         color: black;
+        &:hover{
+            text-decoration: underline;
+            text-decoration-color: $saffron;
+        }
     }
     .active{
         // background: #ffffff40;
         text-decoration: underline;
-        text-decoration-color: #EB5E28;
+        text-decoration-color: $saffron;
         border-radius: 4px;
+    }
+}
+
+
+
+// NIGHTMODE
+.nightmode{
+    background: #22007C;
+    color: white;
+    border-bottom: 1px solid white;
+    .nav-route{
+        color: white;
     }
 }

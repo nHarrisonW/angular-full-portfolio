@@ -2,26 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,200;0,400;0,500;0,900;1,400;1,500;1,900&family=Poppins:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@200;400;500;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-.poppins {
-  font-family: "Poppins", sans-serif;
-}
-.roboto {
-  font-family: "Roboto Mono", monospace;
-}
-.montserrat {
-  font-family: "Montserrat Alternates", sans-serif;
-}
-.russo-one{
-    font-family: 'Russo One';
-}
 
-$white: #eceaef;
-$blue: #507DBC;
-$light-blue: #A6B1E1;
-$lavender: #DCD6F7;
-$marian: #424874;
-$border: #CDD1C4;
-$jet: #ffffff;
-$text: #141414;
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';

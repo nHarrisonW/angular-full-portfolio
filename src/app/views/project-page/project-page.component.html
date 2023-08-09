@@ -1,6 +1,6 @@
 
 
-<div class="project-page poppins">
+<div class="project-page poppins" [ngClass]="{'nightmode':darkLightService.darkMode}">
     <a *ngIf="project.true_reference" class="title" href="{{project.true_reference}}">
         <h1 >
             {{project.name}}-Visit Me!
@@ -9,9 +9,7 @@
     <h1 *ngIf="!project.true_reference" class="title">{{project.name}}</h1>
 
     <div>
-        <p class="page-description">
-            {{project.description}}
-        </p>
+        <div [innerHTML]="project.description" class="page-description"></div>
     
     </div>
     <div class="imgs">

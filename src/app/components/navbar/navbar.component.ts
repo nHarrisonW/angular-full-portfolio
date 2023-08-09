@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { DarkLightService } from 'src/app/services/dark-light.service';
 
 @Component({
   selector: 'app-navbar',
@@ -7,4 +8,5 @@ import { Component, Input } from '@angular/core';
 })
 export class NavbarComponent {
   @Input() projectsData!: any[]; 
+  constructor(public darkLightService:DarkLightService){}
 }

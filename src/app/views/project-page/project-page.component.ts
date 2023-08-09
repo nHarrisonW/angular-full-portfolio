@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { DarkLightService } from 'src/app/services/dark-light.service';
 import { ProjectDataService } from 'src/app/services/project-data.service';
 
 @Component({
@@ -9,7 +10,7 @@ import { ProjectDataService } from 'src/app/services/project-data.service';
 })
 export class ProjectPageComponent {
 project:any;
-constructor(private route:ActivatedRoute, private projectDataService:ProjectDataService) {}
+constructor(private route:ActivatedRoute, private projectDataService:ProjectDataService, public darkLightService:DarkLightService) {}
 
 ngOnInit():void{
   this.route.params.subscribe(params => {

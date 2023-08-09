@@ -1,6 +1,13 @@
-@import '../styles.scss';
+@import '../scss/universal';
 
 .app-parent{
-    background: $jet;
+    background: $alabaster;
+    color: $text;
     min-height: 100vh;
+    transition: ease-in-out 300ms; //UNIVERSAL
+}
+
+.dark-parent{
+    background: #140152;
+    color: white;
 }

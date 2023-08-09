@@ -12,6 +12,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProjectSectionComponent } from './components/project-section/project-section.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { NightDaySwitchComponent } from './components/night-day-switch/night-day-switch.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     FooterComponent,
     ProjectSectionComponent,
     NavbarComponent,
+    NightDaySwitchComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,58 @@
+
+
+/** sunny side **/
+$blue-background: #c2e9f6;
+$blue-border: #72cce3;
+$blue-color: #96dcee;
+$yellow-background: #fffaa8;
+$yellow-border: #efbb10;
+/** dark side **/
+$indigo-background: #808fc7;
+$indigo-border: #5d6baa;
+$indigo-color: #6b7abb;
+$gray-border: #e8e8ea;
+$gray-dots: #e8e8ea;
+$transparent:#e3e3e3;
+
+
+
+::ng-deep{
+
+    .title{
+        color: #242423 !important;
+
+    }
+    
+    .nightmode{
+        .title{
+            color: white !important;
+        }
+        .skill-parent{
+            background: white !important;
+        }
+    }
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+  }
+  .roboto {
+    font-family: "Roboto Mono", monospace;
+  }
+  .montserrat {
+    font-family: "Montserrat Alternates", sans-serif;
+  }
+  .russo-one{
+      font-family: 'Russo One';
+  }
+}
+  
+  $white: #eceaef;
+  $light-blue: #A6B1E1;
+  $lavender: #DCD6F7;
+  $marian: #424874;
+  $border: #CDD1C4;
+  $jet: #333533;
+  $text: #242423;
+  $saffron:#F5CB5C;
+  $alabaster:#E8EDDF;
+  $platinum:#CFDBD5;
