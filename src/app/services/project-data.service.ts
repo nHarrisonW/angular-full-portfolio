@@ -16,7 +16,27 @@ export class ProjectDataService {
         { src: 'https://i.imgur.com/YT3iMeN.png' },
       ],
       description:
-        "As part of my internship at Codestack, I am leading the development of a new website for Mayor Lincoln of Stockton, CA. This ambitious project involves building the website from the ground up, along with the development of a robust content management system (CMS) that empowers the mayor's team to efficiently edit and manage site content. The CMS is being crafted to offer a seamless and intuitive experience, enabling easy updates to the website's information and ensuring that the mayor's office can effectively communicate with the public. In addition to the website and CMS, we are implementing a powerful SQL database to store and manage the site's data effectively. This will provide a solid foundation for data-driven features and enhance the website's overall performance. The development process is an exciting opportunity to showcase our technical expertise and creativity, as we aim to deliver a cutting- edge solution that empowers Mayor Lincoln's office to engage with the community effectively.",
+        `
+        <p>During my rewarding internship at Codestack, I've embraced a pivotal leadership role tasked with spearheading the development of an entirely novel website for the esteemed Mayor Lincoln of Stockton, CA. This venture transcends the realm of a conventional website creation; it's a profound undertaking aimed at architecting an online platform that authentically mirrors the city's identity while providing an avenue for its leadership to forge genuine connections with the community.</p>
+
+        <h3 class="page-heading">Leveraging Angular's Cutting-Edge Potential</h3>
+        <p>At the core of this initiative lies the powerful Angular framework, harnessed in its latest iteration. With this cutting-edge technology, we're poised to construct a digital space that not only meets contemporary expectations but sets new standards for user experience. Angular's advanced capabilities empower us to engineer a responsive, dynamic, and user-centric website that seamlessly adapts to an array of devices and screen sizes.</p>
+
+        <h3 class="page-heading">Empowering Seamless Content Management with Intuitive CMS</h3>
+        <p>However, our ambitions delve deeper. A cornerstone of our project entails crafting a robust content management system (CMS) that empowers Mayor Lincoln's dedicated team to efficiently oversee and update the website's content. This CMS is meticulously tailored to offer an intuitive and frictionless interface, ensuring that content updates can be performed seamlessly by individuals regardless of technical prowess. This democratization of content management empowers the mayor's office to communicate transparently and effectively with the public, fostering a strong sense of unity and engagement.</p>
+
+        <h3 class="page-heading">Harmonizing Angular's Prowess with ng-bootstrap's Finesse</h3>
+        <p>Angular's latest incarnation harmonizes seamlessly with the elegant ng-bootstrap framework, enhancing both aesthetics and functionality. By integrating ng-bootstrap's contemporary UI components and styling, we're sculpting an interface that's not only user-friendly but also visually captivating. This synergistic fusion guarantees that user interaction with the website isn't just intuitive but also engaging, leaving an indelible mark on visitors.</p>
+
+        <h3 class="page-heading">Fortifying Foundations with a Resilient SQL Database</h3>
+        <p>The bedrock of our endeavor is a robust SQL database meticulously designed to store and manage the website's data with efficiency. This structured approach to data management forms the cornerstone of a scalable solution for Mayor Lincoln's digital platform. The database's power lies in its capacity to facilitate data-driven features, anticipate user preferences, and optimize overall performance. This fusion of technology and strategic thinking ensures the website remains agile and responsive, even as it evolves in complexity.</p>
+
+        <h3 class="page-heading">Transcending Code: Breathing Life into Vision</h3>
+        <p>As we traverse this developmental odyssey, we're not merely crafting lines of code; we're translating Mayor Lincoln's vision into a tangible digital reality. This project underscores our technical prowess and innovative spirit as we navigate challenges and seize opportunities to deliver a solution that seamlessly aligns with the mayor's aspirations and Stockton's distinct character.</p>
+
+        <h3 class="page-heading">Summiting Excellence: A Fusion of Technology and Purpose</h3>
+        <p>In essence, our collaborative endeavor epitomizes the seamless fusion of technology, design, and purpose. By harnessing the latest potential of Angular alongside ng-bootstrap's finesse, we're erecting a bridge between the city's leadership and its residents. Our commitment to excellence and unwavering innovation propels us forward to the zenith of our aspirations: delivering a digital masterpiece that not only redefines web development benchmarks but also empowers Mayor Lincoln's office to establish an unequivocal and profound online presence, forever transforming the way Stockton engages with the world.</p>
+        `,
       reference: 'StocktonMayorWebsite',
     },
     {
@@ -85,10 +105,33 @@ export class ProjectDataService {
     },
     {
       name: 'Angular Password Generator',
-      imgs: [{ src: 'assets/' }, { src: 'assets/' }, { src: 'assets/' }],
+      imgs: [
+        {
+          src: 'https://www.topgear.com/sites/default/files/2021/09/4%20Vauxhall%20Corsa.JPG',
+        },
+      ],
       description:
-        'This is a description o fmy project that i am working so i can go to ocoved bruh so this is sosfuj',
+        `
+        <p>My Angular Password Generator is a cutting-edge password generator application developed using Angular 16.0 and featuring the ng-bootstrap framework. Tired of using the same passwords for multiple accounts and concerned about online security? Look no further! NgPasswordGenerator is designed to be your all-in-one solution for generating strong, unique passwords and securely storing them for easy access.</p>
+        
+        <h3 class="page-heading">Key Features:</h3>
+        <ul>
+        <li><span><b>Password Generation:</b></span> Say goodbye to weak and easily guessable passwords. NgPasswordGenerator empowers you to create highly secure passwords with just a few clicks. Customize the length, character types (uppercase, lowercase, numbers, symbols), and complexity to meet the requirements of different platforms.</li>
+
+        <li><span><b>NG Bootstrap Integration:</b></span> Built on the foundation of Angular 16.0, NgPasswordGenerator seamlessly integrates the ng-bootstrap framework, providing a modern and responsive user interface. Enjoy a smooth and intuitive experience across various devices, ensuring usability on both desktop and mobile.</li>
+        
+        <li><span><b>Password Strength Indicator:</b></span> Never wonder about the strength of your passwords again. NgPasswordGenerator includes a dynamic strength indicator that rates the robustness of the generated passwords. This feature assists you in crafting passwords that meet the highest security standards.</li>
+
+        <li><span><b>Customizable Complexity:</b></span> NgPasswordGenerator features a dynamic complexity slider, allowing you to adjust the strength of generated passwords based on your security preferences. Visual indicators help you craft passwords that align with your desired level of robustness.</li>
+
+        <li><span><b>Platform Compatibility:</b></span> NgPasswordGenerator is optimized for cross-platform usage. Access the app seamlessly on various devices, including desktops, tablets, and smartphones. Generate passwords on the go without compromising security.</li>
+        <li><span><b>NgPasswordGenerator</b></span> is your go-to solution for generating powerful passwords that enhance your online security. Leveraging Angular 16.0 and ng-bootstrap, this app marries functionality with an elegant user experience. With its focus on generating unique passwords, NgPasswordGenerator empowers you to take charge of your online security while maintaining the utmost convenience. Upgrade your password practices with NgPasswordGenerator and experience the benefits of modern password management.</li>
+        </ul>
+
+
+        `,
       reference: 'NgPasswordGenerator',
+      true_reference:'',
     },
   ];
 }
