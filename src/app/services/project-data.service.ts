@@ -125,8 +125,10 @@ export class ProjectDataService {
         <li><span><b>Customizable Complexity:</b></span> NgPasswordGenerator features a dynamic complexity slider, allowing you to adjust the strength of generated passwords based on your security preferences. Visual indicators help you craft passwords that align with your desired level of robustness.</li>
 
         <li><span><b>Platform Compatibility:</b></span> NgPasswordGenerator is optimized for cross-platform usage. Access the app seamlessly on various devices, including desktops, tablets, and smartphones. Generate passwords on the go without compromising security.</li>
-        <li><span><b>NgPasswordGenerator</b></span> is your go-to solution for generating powerful passwords that enhance your online security. Leveraging Angular 16.0 and ng-bootstrap, this app marries functionality with an elegant user experience. With its focus on generating unique passwords, NgPasswordGenerator empowers you to take charge of your online security while maintaining the utmost convenience. Upgrade your password practices with NgPasswordGenerator and experience the benefits of modern password management.</li>
         </ul>
+
+        <h3 class="page-heading">NgPasswordGenerator</h3>
+        <p>is your go-to solution for generating powerful passwords that enhance your online security. Leveraging Angular 16.0 and ng-bootstrap, this app marries functionality with an elegant user experience. With its focus on generating unique passwords, NgPasswordGenerator empowers you to take charge of your online security while maintaining the utmost convenience. Upgrade your password practices with NgPasswordGenerator and experience the benefits of modern password management.</p>
 
 
         `,

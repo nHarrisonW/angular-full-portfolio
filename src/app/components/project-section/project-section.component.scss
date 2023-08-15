@@ -23,7 +23,11 @@
 
 .reverse{
     flex-direction: row-reverse;
-    text-align: end;
+    // text-align: end;
+
+    .proj-title{
+        text-align: right;
+    }
 }
 .title{
     h1{&:hover{

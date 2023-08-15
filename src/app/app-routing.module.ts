@@ -6,6 +6,7 @@ import { ProjectPageComponent } from './views/project-page/project-page.componen
 const routes: Routes = [
   {path:'',component:HomeComponent},
   {path:'project/:reference',component:ProjectPageComponent},
+  {path:'letter/:reference',component:ProjectPageComponent},
 ];
 
 @NgModule({

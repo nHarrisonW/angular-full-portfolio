@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { DarkLightService } from 'src/app/services/dark-light.service';
+import { LettersService } from 'src/app/services/letters.service';
 
 @Component({
   selector: 'app-footer',
@@ -7,5 +8,5 @@ import { DarkLightService } from 'src/app/services/dark-light.service';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent {
-  constructor(public darkLightService:DarkLightService){}
+  constructor(public darkLightService:DarkLightService, public letterService:LettersService){}
 }

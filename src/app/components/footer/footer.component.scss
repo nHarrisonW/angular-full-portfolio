@@ -14,6 +14,7 @@ footer{
     a{
         color: $text;
         height: 32px;
+        display: block;
     }
 }
 .footer-logo{
@@ -43,4 +44,8 @@ footer{
             color: $saffron !important;
         }
     }
+}
+
+.letter-link{
+
 }

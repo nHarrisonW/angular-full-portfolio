@@ -24,9 +24,7 @@
         <div class="info-parent">
             <h3 class="title">Letters of Recomendation</h3>
             <p class="my-info">
-                <a href="">Inez Aravelo</a> <br>
-                <a href="">Jasmine Lee</a> <br>
-                <a href="">Isaiah Ferguson</a> <br>
+                <a class="letter-link" href="{{item.src}}" *ngFor="let item of letterService.letters">{{item.name}}</a>
             </p>
         </div>
 
