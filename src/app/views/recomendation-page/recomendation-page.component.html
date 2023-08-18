@@ -1,2 +1,17 @@
 
-<img src="{{letter.src}}" alt="" class="letter">
+
+<div class="rec-parent">
+    <div class="d-flex">
+        <a target="_blank" href="{{letter.reference}}">
+            <img src="{{letter.src}}" alt="" class="letter">
+        </a>
+        <div class="name">
+            <h3>
+
+            {{letter.name}}-<a href="" class="email">Email Me!</a>
+            </h3>
+        </div>
+
+    </div>
+    <div [innerHTML]="letter.html"></div>
+</div>

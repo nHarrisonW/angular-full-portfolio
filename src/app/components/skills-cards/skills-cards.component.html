@@ -1,7 +1,7 @@
 
 <div class="skill-section" [ngClass]="{'nightmode': darkLightService.darkMode}">
     <!-- DEV SKILLS -->
-    <div>
+    <div class="skill-flex">
         <h1 class="title">DEV <br> SKILLS</h1>
         <div class="skill-grid poppins" >
             <div class="skill-parent" *ngFor="let item of skills.dev">
@@ -12,7 +12,7 @@
     </div>
 
 <!-- WORK FLOW SKILLS -->
-<div>
+<div class="skill-flex">
     <h1 class="title">WORK <br> FLOW SKILLS</h1>
     <div class="skill-grid poppins" >
         <div class="skill-parent" *ngFor="let item of skills.work_flow">
@@ -23,7 +23,7 @@
 </div>
 
 <!-- UI/UX SKILLS -->
-<div>
+<div class="skill-flex">
     <h1 class="title">UI/UX <br> SKILLS</h1>
     <div class="skill-grid poppins" >
         <div class="skill-parent" *ngFor="let item of skills.ui_ux">

@@ -2,7 +2,12 @@
 
 
 .about-parent{
-    display: flex;
+
+    .about-hero{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
 
     .headshot{
         height: 340px;

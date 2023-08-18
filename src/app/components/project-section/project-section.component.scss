@@ -46,3 +46,19 @@
 
     }
 }
+
+
+
+@media (max-width: 868px){
+    .project-parent{
+        flex-direction: column;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .reverse{
+        .proj-title{
+        text-align: start;
+        }
+    }
+}

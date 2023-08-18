@@ -26,8 +26,8 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        width: 100px;
-        height: 100px;
+        // width: 100px;
+        // height: 100px;
         justify-content: center;
         padding: 4px;
         border-radius: 50%;
@@ -44,5 +44,52 @@
     }
     .skill-img{
         height: 32px;
+    }
+}
+
+
+
+@media (max-width: 1199px){
+    .nightmode{
+
+        
+        .skill-parent{
+            background: none !important;
+            color: white;
+        }
+    }
+
+    // DAY MODE
+    
+
+    .skill-parent{
+        // scale: 0.7;
+        background: none !important;
+        border: none !important;
+        width: 50px;
+    }
+    .skill-flex{
+        width: 100%;
+    }
+}
+
+@media (max-width: 990px){
+
+    .skill-grid{
+        grid-template-columns: repeat(5,1fr);
+    }
+
+    .skill-section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+@media (min-width: 1199px){
+    .skill-parent{
+        height: 100px;
+        width: 100px;
     }
 }
