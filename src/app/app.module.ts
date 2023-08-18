@@ -14,6 +14,7 @@ import { ProjectSectionComponent } from './components/project-section/project-se
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { NightDaySwitchComponent } from './components/night-day-switch/night-day-switch.component';
 import { LetterPageComponent } from './views/letter-page/letter-page.component';
+import { AboutPageComponent } from './views/about-page/about-page.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { LetterPageComponent } from './views/letter-page/letter-page.component';
     NavbarComponent,
     NightDaySwitchComponent,
     LetterPageComponent,
+    AboutPageComponent,
   ],
   imports: [
     BrowserModule,

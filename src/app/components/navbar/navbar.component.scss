@@ -6,13 +6,12 @@ nav{
     z-index: 10;
 
     transition: ease-in-out 300ms; //UNIVERSAL
-    padding: 10px 0;
+    padding: 32px;
     margin-bottom: 20px;
     border-bottom: 1px solid black;
     background: $platinum;
     .nav-route{
         text-decoration: none;
-        padding: 12px;
         align-items: center;
         display: flex;
         color: black;

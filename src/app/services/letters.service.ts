@@ -9,16 +9,28 @@ export class LettersService {
 
   letters=[
     {
-      src:'',
-      name:'Inez Aravelo'
+      route:'costco',
+      src:'https://i.imgur.com/anKLobh.jpg',
+      name:'Inez Aravelo',
+      html:`
+      <img src="" class="letter">
+      `,
     },
     {
-      src:'',
-      name:'Jasmine Lee'
+      route:'inshape',
+      src:'https://i.imgur.com/xOy9enk.jpg',
+      name:'Jasmine Lee',
+      html:`
+      <img src="" class="letter">
+      `,
     },
     {
-      src:'',
-      name:'Isaiah Ferguson'
+      route:'csa',
+      src:'https://i.imgur.com/l2mXvtR.jpg',
+      name:'Isaiah Ferguson',
+      html:`
+      <img src="" class="letter">
+      `,
     },
   ]
 }

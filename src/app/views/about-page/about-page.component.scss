@@ -1,0 +1,20 @@
+@import '../../../scss/universal';
+
+
+.about-parent{
+    display: flex;
+
+    .headshot{
+        height: 340px;
+        width: 340px;
+        object-fit: contain;
+
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+}
+.nightmode{
+    .headshot{
+        border: 2px solid $saffron;
+    }
+}
