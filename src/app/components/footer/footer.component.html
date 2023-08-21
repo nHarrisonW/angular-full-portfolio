@@ -13,25 +13,25 @@
         <!-- MY LINKS -->
         <div class="info-parent">
             <h3 class="title">My links</h3>
-            <p class="my-info svgs">
+            <div class="my-info svgs">
                 <a target="_blank" href="https://linkedin.com/in/nharrisonw/"><img src="../../../assets/linkedin.svg" alt="" class="footer-link"></a> <br>
                 <a target="_blank" href="https://github.com/nHarrisonW"><img src="../../../assets/github.svg" alt="" class="footer-link"></a> <br>
                 <a target="_blank" href="assets/HarrisonWResumeRTX.pdf"><img src="../../../assets/resume-7.svg" alt="" class="footer-link"></a> <br>
-            </p>
+            </div>
         </div>
 
         <!-- lETTERS OF REC -->
         <div class="info-parent">
             <h3 class="title">Letters of Recomendation</h3>
-            <p class="my-info">
+            <div class="my-info">
                 <a class="letter-link" routerLink="{{item.route}}/letter" *ngFor="let item of letterService.letters">{{item.name}}</a>
-            </p>
+            </div>
         </div>
 
         <!-- LOGO -->
-        <div class="info-parent">
-            <img src="../../../assets/MyLogo.png3" alt="" class="footer-logo">
-        </div>
+        <!-- <div class="info-parent">
+            <img src="https://imgur.com/mpAwWcJ.png" alt="" class="footer-logo">
+        </div> -->
 
     </div>
 </footer>

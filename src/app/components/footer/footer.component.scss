@@ -20,12 +20,9 @@ footer{
         display: block;
     }
 }
-.footer-logo{
-    height: 100px;
-}
 .footer-link{
     height: 32px;
-    margin-bottom: 4px;
+    // margin-bottom: 4px;
     border-radius: 50%;
     border: 1px solid black;
     background: white;
@@ -49,11 +46,7 @@ footer{
     }
 }
 
-.letter-link{
-
-}
-
-@media (max-width:758px) {
+@media (max-width:768px) {
     .info-section{
         flex-direction: column;
     }
