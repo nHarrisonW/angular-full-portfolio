@@ -95,7 +95,6 @@ export class SkillDataService {
       name:'Apple',
       img_src:'https://i.imgur.com/Ouk9QjH.png',
     },
-    
   ]
   ui_ux=[
     {
