@@ -37,10 +37,6 @@ export class SkillDataService {
       img_src:'https://i.imgur.com/saS7OKX.png',
     },
     {
-      name:'Postman',
-      img_src:'https://i.imgur.com/IIwO7wD.png',
-    },
-    {
       name:'React',
       img_src:'https://i.imgur.com/mqJJnWN.png',
     },
@@ -64,17 +60,9 @@ export class SkillDataService {
       name:'Bootstrap',
       img_src:'https://i.imgur.com/iGSrx9j.png',
     },
-    {
-      name:'Angular',
-      img_src:'https://i.imgur.com/RZADRRW.png',
-    },
     
   ]
   work_flow=[
-    {
-      name:'Apple',
-      img_src:'https://i.imgur.com/Ouk9QjH.png',
-    },
     {
       name:'Azure',
       img_src:'https://i.imgur.com/an2nhpm.png',
@@ -96,12 +84,16 @@ export class SkillDataService {
       img_src:'https://i.imgur.com/ss6b89k.png',
     },
     {
+      name:'Filezilla',
+      img_src:'https://i.imgur.com/TRqRHrt.png',
+    },
+    {
       name:'Windows',
       img_src:'https://i.imgur.com/gtKmiv6.png',
     },
     {
-      name:'Filezilla',
-      img_src:'https://i.imgur.com/TRqRHrt.png',
+      name:'Apple',
+      img_src:'https://i.imgur.com/Ouk9QjH.png',
     },
     
   ]
