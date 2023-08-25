@@ -2,24 +2,87 @@
 
 
 .about-parent{
+    display: flex;
+    p{
+        margin: 0;
+    }
 
     .about-hero{
         display: flex;
-        align-items: center;
-        gap: 24px;
+        flex-direction: column;
+        margin-right: 24px;
     }
 
     .headshot{
-        height: 340px;
-        width: 340px;
         object-fit: contain;
 
-        border: 2px solid black;
         border-radius: 50%;
+        z-index: 10;
+    }
+    .bio{
+        background: $platinum;
+        border: 1px solid black;
+
+        padding: 12px;
+        padding-top: 48px;
+        margin-top: -48px;
+        z-index: 0;
+
+
+    }
+    .hello-title{
+        text-align: center;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 1;
+        margin: 8px 0;
+    }
+    .hello-p{
+        text-align: center;
+        font-weight: 300;
+
+    }
+    .about-p{
+        font-weight: 300;
+        margin-bottom: 12px;
+    }
+    .contact{
+        background: none;
+        border: 1px solid black;
+        border-radius: 55px;
+
+        padding: 12px;
+
+        &:hover{
+            background: #8b8b8b0b;
+        }
     }
 }
+
+
 .nightmode{
     .headshot{
-        border: 2px solid $saffron;
+    }
+    .bio{
+        background: #22007C;
+        border: 1px solid white;
+    }
+    .contact{
+        color: white;
+        border-color: white;
+    }
+}
+
+
+// Responsiveness
+@media (max-width: 991px){
+    .about-parent{
+        flex-direction: column;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .headshot{
+        width: 80%;
     }
 }

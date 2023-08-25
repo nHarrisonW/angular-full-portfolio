@@ -16,8 +16,8 @@ footer{
     // color: white;
     a{
         color: $text;
-        height: 32px;
         display: block;
+        line-height: 1.5;
     }
 }
 .footer-link{
@@ -46,7 +46,7 @@ footer{
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
     .info-section{
         flex-direction: column;
     }
