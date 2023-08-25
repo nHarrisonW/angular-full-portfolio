@@ -1,11 +1,15 @@
 <nav [ngClass]="{'nightmode': darkLightService.darkMode }">
-    <div class=" justify-content-between d-flex poppins">
-        <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="" class="nav-route">Home</a>
-        <a routerLinkActive="active" routerLink="project/StocktonMayorWebsite" class="nav-route">Stockton Mayor Website</a>
-        <a routerLinkActive="active" routerLink="project/CORSACRAFT" class="nav-route russo-one">CORSACRAFT</a>
-        <a routerLinkActive="active" routerLink="project/SuppWorld" class="nav-route">SuppWorld!</a>
-        <a routerLinkActive="active" routerLink="project/NgPasswordGenerator" class="nav-route">Angular Password Generator</a>
-        <a routerLinkActive="active" routerLink="about/me" class="nav-route">About Me</a>
-        <app-night-day-switch></app-night-day-switch>
+    <div class=" nav-flex poppins">
+        <a *ngFor="let route of routes" 
+            class="nav-route"
+            [ngClass]="{'hidden':route.hidden && !route.active}"
+            [routerLinkActive]="'active'"
+            [routerLinkActiveOptions]="{ exact: true }"
+            [routerLink]="route.routerLink"
+            (click)="route.active ? navigate(route.routerLink) : toggleRoutes()"
+            >
+            {{ route.label }}
+        </a>
+         <app-night-day-switch></app-night-day-switch>
     </div>
 </nav>

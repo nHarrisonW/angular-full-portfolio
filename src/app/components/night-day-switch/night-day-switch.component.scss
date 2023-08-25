@@ -52,4 +52,8 @@
       }
     }
   }
-  
+  @media (max-width:767px){
+    .night-day-switch{
+      scale: 0.7;
+    }
+  }

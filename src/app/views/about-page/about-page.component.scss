@@ -1,25 +1,54 @@
-// @import '../../../styles.scss';
+@import '../../../scss/universal';
 
 
-.project-page{
-    // color: white;
-    .page-description{
-        padding: 0 20px;
+
+
+.about-parent{
+    display: flex;
+    font-weight: 300;
+    h1{
+        font-weight: 900;
     }
-    .imgs{
-        display: flex;
-        flex-direction: column;
+    .about-hero{
+        margin-right: 32px;
+        .headshot{
+            width: 100%;
+            border-radius: 50%;
+        }
+        .bio{
+            background: $platinum;
+            border: 1px solid black;
+
+            padding: 20px;
+            margin-top: -80px;
+            padding-top: 100px;
+
+            text-align: center;
+            .hello-title{
+                font-size: 30px;
+                font-weight: 900;
+            }
+        }
     }
-    img.project-hero{
-        width: 100%;
-        display: flex;  
-        margin-bottom: 12px;
+    .contact{
+        background: $platinum;
         border: 1px solid black;
-        background: white;
-  }
+        padding: 12px;
+        font-weight: 300;
+    }
+
 }
 
 
+@media (max-width:991px) {
+    .about-parent{
+        flex-direction: column;
+        .col-4{
+            width: 100%;
+        }
+    }
+
+}
 
 
 

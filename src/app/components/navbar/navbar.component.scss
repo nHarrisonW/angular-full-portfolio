@@ -10,6 +10,10 @@ nav{
     margin-bottom: 20px;
     border-bottom: 1px solid black;
     background: $platinum;
+    .nav-flex{
+        display: flex;
+        justify-content: space-between;
+    }
     .nav-route{
         text-decoration: none;
         align-items: center;
@@ -48,6 +52,18 @@ nav{
     }
 }
 
-@media (max-width:758px){
-    
+@media (max-width:767px){
+    nav{
+        padding: 20px;
+        .nav-flex{
+            flex-direction: column;
+            align-items: center;
+            .hidden{
+                display: none;
+            }
+            .active {
+                display: block;
+            }
+        }
+    }
 }
