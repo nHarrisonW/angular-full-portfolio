@@ -60,7 +60,14 @@ export class SkillDataService {
       name:'Bootstrap',
       img_src:'https://i.imgur.com/iGSrx9j.png',
     },
-    
+    {
+      name:'NPM',
+      img_src:'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/540px-Npm-logo.svg.png',
+    }, 
+    {
+      name:'',
+      img_src:'https://developers.google.com/static/analytics/images/terms/lockup_ic_Google_Analytics_vert_388px_clr.png',
+    },   
   ]
   work_flow=[
     {
