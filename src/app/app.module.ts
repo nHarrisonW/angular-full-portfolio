@@ -15,6 +15,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { NightDaySwitchComponent } from './components/night-day-switch/night-day-switch.component';
 import { LetterPageComponent } from './views/letter-page/letter-page.component';
 import { AboutPageComponent } from './views/about-page/about-page.component';
+import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,9 @@ import { AboutPageComponent } from './views/about-page/about-page.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    NgxGoogleAnalyticsModule.forRoot('G-LPDCBXLYQ0'),
+    NgxGoogleAnalyticsRouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

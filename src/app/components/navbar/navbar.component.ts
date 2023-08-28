@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
+import { GoogleAnalyticsService } from 'ngx-google-analytics';
 import { DarkLightService } from 'src/app/services/dark-light.service';
 
 
@@ -17,7 +18,7 @@ interface Route {
 })
 export class NavbarComponent {
   @Input() projectsData!: any[]; 
-  constructor(public darkLightService:DarkLightService, private router:Router){}
+  constructor(public darkLightService:DarkLightService, private router:Router, private gaService:GoogleAnalyticsService){}
 
   routes: Route[] = [
     { label: 'Home', routerLink: '', active: true, hidden: false },
@@ -37,7 +38,8 @@ export class NavbarComponent {
     })
   }
   navigate(routerlink:any){
-    this.router.navigate(routerlink)
+    this.gaService.pageView(routerlink);
+    this.router.navigate(routerlink);
   }
 
 
