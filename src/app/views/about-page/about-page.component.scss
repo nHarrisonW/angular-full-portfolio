@@ -4,6 +4,7 @@
 
 
 .about-parent{
+    
     display: flex;
     font-weight: 300;
     h1{
@@ -21,7 +22,7 @@
 
             padding: 20px;
             margin-top: -80px;
-            padding-top: 100px;
+            padding-top: 80px;
 
             text-align: center;
             .hello-title{
@@ -30,15 +31,19 @@
             }
         }
     }
+    // a{
+    //     color: black !important;
+    // }
     .contact{
+        text-decoration: none;
+        color: black !important;
         background: $platinum;
         border: 1px solid black;
         padding: 12px;
         font-weight: 300;
     }
-
+    
 }
-
 
 @media (max-width:991px) {
     .about-parent{
