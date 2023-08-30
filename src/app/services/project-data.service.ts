@@ -103,37 +103,37 @@ export class ProjectDataService {
       reference: 'SuppWorld',
       true_reference: 'thisreference',
     },
-    {
-      name: 'Angular Password Generator',
-      imgs: [
-        {
-          src: 'https://www.topgear.com/sites/default/files/2021/09/4%20Vauxhall%20Corsa.JPG',
-        },
-      ],
-      description:
-        `
-        <p>My Angular Password Generator is a cutting-edge password generator application developed using Angular 16.0 and featuring the ng-bootstrap framework. Tired of using the same passwords for multiple accounts and concerned about online security? Look no further! NgPasswordGenerator is designed to be your all-in-one solution for generating strong, unique passwords and securely storing them for easy access.</p>
+    // {
+    //   name: 'Angular Password Generator',
+    //   imgs: [
+    //     {
+    //       src: 'https://www.topgear.com/sites/default/files/2021/09/4%20Vauxhall%20Corsa.JPG',
+    //     },
+    //   ],
+    //   description:
+    //     `
+    //     <p>My Angular Password Generator is a cutting-edge password generator application developed using Angular 16.0 and featuring the ng-bootstrap framework. Tired of using the same passwords for multiple accounts and concerned about online security? Look no further! NgPasswordGenerator is designed to be your all-in-one solution for generating strong, unique passwords and securely storing them for easy access.</p>
         
-        <h3 class="page-heading">Key Features:</h3>
-        <ul>
-        <li><span><b>Password Generation:</b></span> Say goodbye to weak and easily guessable passwords. NgPasswordGenerator empowers you to create highly secure passwords with just a few clicks. Customize the length, character types (uppercase, lowercase, numbers, symbols), and complexity to meet the requirements of different platforms.</li>
+    //     <h3 class="page-heading">Key Features:</h3>
+    //     <ul>
+    //     <li><span><b>Password Generation:</b></span> Say goodbye to weak and easily guessable passwords. NgPasswordGenerator empowers you to create highly secure passwords with just a few clicks. Customize the length, character types (uppercase, lowercase, numbers, symbols), and complexity to meet the requirements of different platforms.</li>
 
-        <li><span><b>NG Bootstrap Integration:</b></span> Built on the foundation of Angular 16.0, NgPasswordGenerator seamlessly integrates the ng-bootstrap framework, providing a modern and responsive user interface. Enjoy a smooth and intuitive experience across various devices, ensuring usability on both desktop and mobile.</li>
+    //     <li><span><b>NG Bootstrap Integration:</b></span> Built on the foundation of Angular 16.0, NgPasswordGenerator seamlessly integrates the ng-bootstrap framework, providing a modern and responsive user interface. Enjoy a smooth and intuitive experience across various devices, ensuring usability on both desktop and mobile.</li>
         
-        <li><span><b>Password Strength Indicator:</b></span> Never wonder about the strength of your passwords again. NgPasswordGenerator includes a dynamic strength indicator that rates the robustness of the generated passwords. This feature assists you in crafting passwords that meet the highest security standards.</li>
+    //     <li><span><b>Password Strength Indicator:</b></span> Never wonder about the strength of your passwords again. NgPasswordGenerator includes a dynamic strength indicator that rates the robustness of the generated passwords. This feature assists you in crafting passwords that meet the highest security standards.</li>
 
-        <li><span><b>Customizable Complexity:</b></span> NgPasswordGenerator features a dynamic complexity slider, allowing you to adjust the strength of generated passwords based on your security preferences. Visual indicators help you craft passwords that align with your desired level of robustness.</li>
+    //     <li><span><b>Customizable Complexity:</b></span> NgPasswordGenerator features a dynamic complexity slider, allowing you to adjust the strength of generated passwords based on your security preferences. Visual indicators help you craft passwords that align with your desired level of robustness.</li>
 
-        <li><span><b>Platform Compatibility:</b></span> NgPasswordGenerator is optimized for cross-platform usage. Access the app seamlessly on various devices, including desktops, tablets, and smartphones. Generate passwords on the go without compromising security.</li>
-        </ul>
+    //     <li><span><b>Platform Compatibility:</b></span> NgPasswordGenerator is optimized for cross-platform usage. Access the app seamlessly on various devices, including desktops, tablets, and smartphones. Generate passwords on the go without compromising security.</li>
+    //     </ul>
 
-        <h3 class="page-heading">NgPasswordGenerator</h3>
-        <p>is your go-to solution for generating powerful passwords that enhance your online security. Leveraging Angular 16.0 and ng-bootstrap, this app marries functionality with an elegant user experience. With its focus on generating unique passwords, NgPasswordGenerator empowers you to take charge of your online security while maintaining the utmost convenience. Upgrade your password practices with NgPasswordGenerator and experience the benefits of modern password management.</p>
+    //     <h3 class="page-heading">NgPasswordGenerator</h3>
+    //     <p>is your go-to solution for generating powerful passwords that enhance your online security. Leveraging Angular 16.0 and ng-bootstrap, this app marries functionality with an elegant user experience. With its focus on generating unique passwords, NgPasswordGenerator empowers you to take charge of your online security while maintaining the utmost convenience. Upgrade your password practices with NgPasswordGenerator and experience the benefits of modern password management.</p>
 
 
-        `,
-      reference: 'NgPasswordGenerator',
-      true_reference:'',
-    },
+    //     `,
+    //   reference: 'NgPasswordGenerator',
+    //   true_reference:'',
+    // },
   ];
 }

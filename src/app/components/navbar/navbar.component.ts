@@ -25,7 +25,7 @@ export class NavbarComponent {
     { label: 'Stockton Mayor Website', routerLink: 'project/StocktonMayorWebsite', active: false, hidden: true },
     { label: 'CORSACRAFT', routerLink: 'project/CORSACRAFT', active: false, hidden: true },
     { label: 'SuppWorld!', routerLink: 'project/SuppWorld', active: false, hidden: true },
-    { label: 'Angular Password Generator', routerLink: 'project/NgPasswordGenerator', active: false, hidden: true },
+    // { label: 'Angular Password Generator', routerLink: 'project/NgPasswordGenerator', active: false, hidden: true },
     { label: 'About Me', routerLink: 'about/me', active: false, hidden: true },
   ];
 
